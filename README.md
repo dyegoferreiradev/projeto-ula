@@ -21,3 +21,7 @@ A ULA foi projetada para receber sinais de entrada (operandos) e executar uma s�
 1. **Clone o repositório** para a sua máquina local:
    ```bash
    git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
+2. Abra o software **Intel Quartus**.
+3. Vá no menu File > Open Project... e selecione o arquivo do projeto (geralmente com a extensão .qpf) dentro da pasta clonada.
+4. Para compilar o hardware, clique em Processing > Start Compilation (ou no ícone de "Play" na barra superior).
+5. **Simulação:** Para testar e visualizar o comportamento das portas lógicas e operações, utilize os arquivos de simulação de forma de onda (como o .vwf no ModelSim/Quartus Simulator) fornecendo diferentes sinais de entrada de 5 bits.
